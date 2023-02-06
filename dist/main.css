@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: 1;
+}
+
+.info-box{
+    padding: 10px;
+    z-index: 2;
+    position: absolute;
+    color:white;
+    top: 0;
+    display: none;
+}
+
+.info-box div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.info-box div button{
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    border: none;
+}
+
+#lastD{
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+    border: none;
+}
+
+img{
+    width:400px
+}
+
+/*# sourceMappingURL=main.css.map*/
